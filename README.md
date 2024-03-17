@@ -53,6 +53,7 @@ Altere o nome do storage account e a região; O mesmo já vem pronto para recebe
 
 #Dados Storage ACcount 
 "Template_Storage.json"
+![image](https://github.com/robertosilvafelipe/projeto_jornada_mod1/assets/101230256/cc1ed638-3680-4e56-b7e2-e54689f3f989)
 
 
 ##Alterar os dados de conexáo da storageaccount criada para gravaçãoi
