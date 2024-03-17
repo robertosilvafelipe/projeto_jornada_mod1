@@ -50,6 +50,9 @@ docker run -it --rm --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-sta
 
 #Deploy a storage account usando o template ARM. 
 Altere o nome do storage account e a região; O mesmo já vem pronto para receber os dados do projeto. 
+![image](https://github.com/robertosilvafelipe/projeto_jornada_mod1/assets/101230256/d2477c96-e9a9-480f-8281-d0a4ff6af311)
+
+#importe o arquivo template do storage account
 
 #Dados Storage ACcount 
 "Template_Storage.json"
