@@ -12,7 +12,7 @@ channel = connection.channel()
 redis_client = redis.Redis(host='localhost', port=6379, db=0)
 
 # Configurações do Azure Blob Storage
-connect_str = "DefaultEndpointsProtocol=https;AccountName=storagejornadat0101;AccountKey=qocKaX2MWimTAdNY2pvQt5Gx4BdCh6UIUvIg+iq+LoxWldpT53qZQU6ax9IORemWHtdLC+JyPjQb+AStUokOgQ==;EndpointSuffix=core.windows.net"
+connect_str = "DefaultEndpointsProtocol=https;AccountName=<STORAGE_ACCOUNT_NAME>;AccountKey=<SUA_CHAVE_AQUI>==;EndpointSuffix=core.windows.net"
 container_name = "dadosclientes"
 blob_name = "dadosclientes.txt"
 
