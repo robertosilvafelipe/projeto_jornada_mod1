@@ -40,6 +40,7 @@ def verificar_fraude(endereco, timestamp, mensagem):
     endereco_anterior = json.loads(redis_client.get('endereco_cliente') or '{}')
     ultimo_timestamp = endereco_anterior.get('timestamp')
     
+    #verifica a alteração do endereço para detectar a fraude
     if ultimo_timestamp:
         ultimo_timestamp = datetime.strptime(ultimo_timestamp, "%Y-%m-%dT%H:%M:%S %z")
         if (endereco_anterior.get('city') != endereco['city'] or
