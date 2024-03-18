@@ -1,0 +1,11 @@
+[
+  '{{repeat(1, 1)}}',
+  {
+    _id: '{{objectId()}}',
+    isActive: '{{bool()}}',
+    cliente: '{{firstName()}} {{surname()}}',
+    email: '{{email()}}',
+    endereco: ' {{city()}}, {{state()}}, {{integer(100, 10000)}}',
+    datatrasancao: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}'
+  }
+]
